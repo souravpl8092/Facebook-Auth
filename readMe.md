@@ -1,6 +1,29 @@
 <h1 align="center"> Facebook Authentication using Node.js, Express, and Mongoose </h1>
 
 <br/>
+<br/>
+
+<table>
+<tr>
+    <td>
+      <h3 align="center">Before Login</h3>
+    </td>
+    <td>
+      <h3 align="center">After Login</h3>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/6mHbhs9.png" alt="Before Login">
+    </td>
+    <td>
+      <img src="https://i.imgur.com/EOUYMOY.png" alt="After Login">
+    </td>
+  </tr>
+  
+</table>
+
+<br/>
 
 <h2>Overview</h2>
  
