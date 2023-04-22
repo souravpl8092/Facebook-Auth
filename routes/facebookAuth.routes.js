@@ -44,11 +44,11 @@ facebookRouter.get(
   "/callback",
   passport.authenticate("facebook", {
     //If authentication fails, it redirects to an error page.
-    failureRedirect: "/auth/facebook/error",
+    failureRedirect: "/index/facebook/error",
   }),
   function (req, res) {
     // Successful authentication, redirect to success screen.
-    res.redirect("/auth/facebook/success");
+    res.redirect("/index/facebook/success");
   }
 );
 
@@ -73,7 +73,7 @@ facebookRouter.get("/signout", (req, res) => {
     req.session.destroy(function (err) {
       console.log("session destroyed.");
     });
-    res.render("auth");
+    res.render("index");
   } catch (err) {
     res.status(400).send({ message: "Failed to sign out fb user" });
   }

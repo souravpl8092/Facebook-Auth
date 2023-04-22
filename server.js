@@ -32,11 +32,11 @@ passport.deserializeUser(function (obj, cb) {
 
 //Renders the authentication page.
 app.get("/", (req, res) => {
-  res.render("auth");
+  res.render("index");
 });
 
 //Mounts the Facebook authentication router at the "/auth/facebook" route.
-app.use("/auth/facebook", facebookRouter);
+app.use("/index/facebook", facebookRouter);
 
 //Starts the server and connects to the MongoDB database.
 app.listen(process.env.PORT, async () => {

@@ -88,7 +88,7 @@
 
 <br/>
 
-### index.js
+### server.js
 
 - This file initializes the Express application, sets up the session middleware, passport.js authentication, and defines the routes for the Facebook authentication.
 
